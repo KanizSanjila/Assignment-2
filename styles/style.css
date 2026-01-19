@@ -19,7 +19,7 @@
     color:#FFFFFF;
 }
 
-.linear{
+.linears{
     background:linear-gradient(to right, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1) ,rgba(145, 0, 248, 1) );
 }
 
@@ -37,7 +37,7 @@
     background-color: #1A0B2E;
 }
 
-p{
+p , small{
     opacity: 0.8;
 }
 
@@ -50,6 +50,19 @@ nav{
     text-align: center;
     border-bottom: 1px solid grey ;
     padding-bottom: 20px;
+}
+
+.linear{
+      background:linear-gradient(to right, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1) ,rgba(145, 0, 248, 1) );
+       color: transparent;
+  background-clip: text;
+}
+ .fa{
+    font-size: 4em;
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(to right, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1) ,rgba(145, 0, 248, 1) );;
+
 }
 
 ul{
@@ -83,6 +96,9 @@ header{
     position: relative;
 }
 .micro{
+    transform: scale(1.5);
+    transition: 10.3s;
+    translate: 10px;
     position: absolute;
     right: 615px;
     top: 225px;
@@ -141,6 +157,147 @@ box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
     font-weight: bolder;
 }
 
+/* Meet the Host */
+#meet{
+    max-width: 1140px;
+    margin: 100px auto;
+   
+}
+#meet h1 , .featured>h1{
+    margin: 1rem;
+    text-align: center;
+}
+.youtube-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+   
+}
+
+.first{
+    background-color:rgba(53, 17, 101, 0.4) ;
+     border-radius: 20px;
+    margin-right: 30px;
+}
+.first iframe{
+    border-radius: 20px 20px 0 0;
+}
+
+.youtube{
+    padding: 20px;
+}
+.time{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.time h6{
+    color: #00FF88;
+    padding-top:5px ;
+}
+/* Why Choose TechWave */
+.Choose-container{
+       max-width: 1140px;
+    margin: 50px auto;
+}
+
+.Choose-container h1{
+    text-align: center;
+}
+
+.box-container{
+    margin: 20px 0;
+    /* border: 1px solid red; */
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+    gap: 20px;
+}
+
+.box{
+   padding: 20px;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 30px;
+}
+
+.box h4{
+    margin: 20px 0;
+}
+
+.box1{
+    grid-column:span 1;
+    grid-row:span 2;
+}
+.box2{
+      grid-column:span 2;
+    grid-row:span 1;
+}
+.box3{
+      grid-column:span 2;
+    grid-row:span 1;
+}
+.box4{
+      grid-column:span 2;
+    grid-row:span 1;
+}
+.box5{
+      grid-column:span 1;
+    grid-row:span 1;
+}
+
+
+/* info-container */
+.info-container{
+     background-color: rgba(53, 17, 101, 0.4);
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    column-gap: 2em;
+    border-radius: 20px;
+
+}
+.info{
+   line-height: 25px;
+}
+
+.icon{
+    margin-top: 1rem;
+   display: flex;
+   text-align: center;
+   /* align-items: center; */
+   gap: 10px;
+}
+
+.icon>div{
+   text-align: center;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+
+/* ....footer..... */
+footer{
+    background-image: url('/assets/footer-bg.png');
+   text-align: center;
+   height: 300px;
+   padding: 100px;
+
+}
+
+.icon-container{
+    margin:1rem ;
+    column-gap: 2rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hide{
+    display: none;
+}
 
 
 /* ...responsive--mobile device */
@@ -183,5 +340,47 @@ box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
 .update-container{
     row-gap: 1rem;
     grid-template-columns: repeat(2 , 1fr);
+}
+
+
+
+.icon-container{
+    display: grid;
+   grid-template-columns: repeat(2 , 1fr);
+    
+}
+
+.box-container{
+    display: inline;
+     margin-bottom: 20px;
+    
+}
+.youtube-container{
+    display: inline;
+}
+
+.first{
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.box{
+    margin: 20px 20px;
+}
+
+.info-container{
+    display: inline;
+    text-align: center;
+}
+
+.info>p{
+    margin: 0 20px;
+}
+.icon{
+    margin-top: 1rem;
+   display: flex;
+   text-align: center;
+   justify-content: center
+   
 }
 }
