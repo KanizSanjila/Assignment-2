@@ -99,14 +99,19 @@ header{
     position: relative;
 }
 .micro{
-    /* transform: scale(1.5);
-    transition: 10.3s;
-    translate: 10px; */
     position: absolute;
     right: 615px;
     top: 225px;
 }
+
+.new button:hover{
+     font-size: 20px;
+    
+}
 .new button{
+     transform: scale(1.5);
+    transition: 10.3s;
+    translate: 10px;
     position: absolute;
     border-radius: 20px;
     background-color: #00FF88;
