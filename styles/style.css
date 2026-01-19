@@ -96,9 +96,9 @@ header{
     position: relative;
 }
 .micro{
-    transform: scale(1.5);
+    /* transform: scale(1.5);
     transition: 10.3s;
-    translate: 10px;
+    translate: 10px; */
     position: absolute;
     right: 615px;
     top: 225px;
@@ -283,7 +283,7 @@ footer{
     background-image: url('/assets/footer-bg.png');
    text-align: center;
    height: 300px;
-   padding: 100px;
+   padding: 70px;
 
 }
 
@@ -357,6 +357,10 @@ footer{
 }
 .youtube-container{
     display: inline;
+}
+
+.youtube-container iframe{
+    width: 310px;
 }
 
 .first{
