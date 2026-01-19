@@ -95,6 +95,7 @@ header{
 }
 
 .round{
+    width: 100%;
     position: relative;
 }
 .micro{
@@ -324,15 +325,17 @@ footer{
 .img{
     display: inline;
 }
+
 .micro{
-    padding-right:30px;
+    /* padding: 50px; */
+    /* padding-right:20px; */
     position: absolute;
     right: 140px;
     top: 230px;
 }
 .new button{
-    top: 160px;
-   right:110px;
+    right: 20px;
+   
 
 }
 .center{
