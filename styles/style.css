@@ -100,8 +100,8 @@ header{
 }
 .micro{
     position: absolute;
-    right: 615px;
-    top: 225px;
+   left: 45%;
+  top: 40%;
 }
 
 .new button:hover{
@@ -354,9 +354,12 @@ footer{
 }
 
 .micro{
-    position: absolute;
-    right:140px;
-    top: 180px;
+   left: 45%;
+  top: 30%;
+    /* width: 100%; */
+    /* position: absolute; */
+    /* right:140px; */
+    /* top: 180px; */
 }
 
 .micro-img{
@@ -364,7 +367,7 @@ footer{
 }
    
 .new button{
-    right: 50px;
+    right: 100px;
    
 
 }
