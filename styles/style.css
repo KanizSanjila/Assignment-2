@@ -272,10 +272,15 @@ box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
      background-color: rgba(53, 17, 101, 0.4);
     padding: 1em;
     display: flex;
+    justify-content: center;
     align-items: center;
     column-gap: 2em;
     border-radius: 20px;
 
+}
+
+.info p{
+    margin: 20px 0;
 }
 .info{
    line-height: 25px;
@@ -284,16 +289,13 @@ box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
 .icon{
     margin-top: 1rem;
    display: flex;
-   text-align: center;
-   /* align-items: center; */
-   gap: 10px;
+   gap: 15px;
 }
 
-.icon>div{
-   text-align: center;
+.icon-imag{
     border: 1px solid gray;
     border-radius: 50%;
-    padding: 5px 10px;
+    padding: 10px 15px;
 }
 /* ....footer..... */
 footer{
@@ -314,6 +316,13 @@ footer{
     justify-content: center;
     row-gap: 20px;
     
+    
+}
+
+.flex{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
     
 }
 
@@ -340,15 +349,22 @@ footer{
     width: 100%;
 }
 
-.micro{
-    /* padding: 50px; */
-    padding-right:65px;
-    position: absolute;
-    right: 140px;
-    top: 230px;
+.round-img{
+    width:200px;
 }
+
+.micro{
+    position: absolute;
+    right: 165px;
+    top: 190px;
+}
+
+.micro-img{
+    width: 80px;
+}
+   
 .new button{
-    right: 90px;
+    right: 100px;
    
 
 }
