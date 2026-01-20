@@ -308,7 +308,7 @@ footer{
 
 .icon-container{
     width: 50%;
-    margin:0 auto;
+    margin:10px auto;
     column-gap: 1rem;
     display: flex;
     justify-content: center;
